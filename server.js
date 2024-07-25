@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const username = 'amandeep101003';
-const password = 'aman1001';
+const username = 'ENTER_YOUR_USERNAME';
+const password = 'ENTER_YOUR_PASSWORD';
 const url =`mongodb+srv://${username}:${password}@cluster0.rlqapzu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0` ;
 app.use(express.json());
 mongoose.connect(url,{
